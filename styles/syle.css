@@ -1,14 +1,18 @@
 .header_box{
         
-    display: flex;
+    display: flex;}
 
-
+body{
+    font-family: 'Roboto Condensed';
 }
+
+
 
 .header_box5{
     width: 88px;
     height: 31px;
     margin-left: 60px;
+    
 
 
 
@@ -17,8 +21,9 @@
 .header_box1{
     margin-left: 948px;
     margin-top: 13px;
-    width: 191px;
+    width: 250px;
     height: 21px;
+    font-family: 'Roboto Condensed';
     
 
 }
@@ -28,6 +33,7 @@
     height: 21px;
     margin-left: 13px;
     margin-top: 13px;
+    font-family: 'Roboto Condensed';
     
 
 }
@@ -37,6 +43,7 @@
     height: 21px;
     margin-top: 13px;
     margin-left: 30px;
+    font-family: 'Roboto Condensed';
     
 
 }
@@ -46,28 +53,32 @@
     height: 21px;
     margin-top: 13px;
     margin-left: 30px;
-    
+    font-family: 'Roboto Condensed';
 
 }
 
 
-nav{
+.nav_ul{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: silver;
     width: 1440px;
     height: 74.5px;
     left: 222px;
-    align-items: center;
+    
 }
 
 .nav_li{
+    display: flex;
+    text-decoration: none;
     margin-left: 60px;
 
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -81,14 +92,14 @@ a{
 
 .section2{
     width: 1440px;
-    height: 1250px;
+    
     background: #8F0133;
 }
 
 table,td{
     border: 2px solid black;
     border-collapse: collapse;
-    background-color: aliceblue;
+    
     margin: 0 auto;
     padding: 25px;
    
@@ -96,6 +107,7 @@ table,td{
 
 .video{
     margin-left: 117px;
+    padding: 30px;
 }
 
 .girl{
@@ -110,6 +122,32 @@ height: 450px;
     margin-left: 60px;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 
 
+}
+
+
+.table2{
+    width: 60%;
+    margin: 30px;
+    margin: 0 auto;
+
+
+}
+
+.table3{
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+margin: 0 auto;
+
+
+}
+
+#bold{
+    size: 150px;
+    font-weight: 800px;
 }
