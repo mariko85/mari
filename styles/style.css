@@ -182,5 +182,7 @@ margin: 0 auto;
 }
 
 body{
+    
     overflow-x: hidden;
+    width: 100vw;
 }
